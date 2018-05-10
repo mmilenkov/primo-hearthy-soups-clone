@@ -1,0 +1,220 @@
+#full-size-image
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tagline
+{
+position:absolute;
+background-color: grey;
+opacity: 0.6;
+right: 35%;
+left: 35%;
+bottom: 57%;
+padding: 1%;
+margin: 0 auto;
+font-size: 2em;
+color: white;
+
+}
+
+.nav-bar-horizontal
+{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar-horizontal li
+{
+	float: left;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	padding: 2.5% 1%;
+}
+
+#special
+{
+	padding: 1% 0%;
+}
+
+.logo img
+{
+	width: 70%;
+}
+
+#language1
+{
+	color: grey;
+	padding-right: 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 0.5% 2%;
+}
+#language2
+{
+	
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 6%;
+	padding: 0;
+	color:grey;
+	padding: 0.5% 2%;
+}
+
+.selected
+{
+	border: 1px solid grey;
+}
+
+hr
+{
+		height: 1px;
+		border: 0;
+		color: grey;
+		background-color: grey;
+		width: 100%;
+		margin-bottom: 5%;
+		opacity: 0.2;
+	
+}
+
+.line
+{
+	width: 50%;
+}
+
+.veg
+
+{
+	padding:1%;
+}
+.veg img
+{
+width: 100%;
+background-repeat: no-repeat;
+object-fit: contain;
+}
+
+.spoon img
+{
+float: left;
+}
+
+.sub-container
+{
+display: inline-block;
+width: 30%;
+margin: 3%;
+}
+
+.oil img
+{
+	float:right;
+	width: 30%;
+	object-fit: contain;
+	display: inline-block;
+}
+
+.crouton
+{
+	padding: 0 7% 7% 7%;
+}
+.crouton img
+{
+	float: left;
+	object-fit: contain;
+	display: inline-block;
+	width: 55%;
+}
+.black
+{
+	background-color: #231f20;
+}
+
+footer
+{
+	color: grey;
+}
+
+header
+{
+	color: white;
+}
+
+.list li
+{
+	padding-bottom: 5%;
+	color: grey;
+}
+
+body
+{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Delius', cursive;
+	background-color: white;
+	display: block;
+	line-height: 25px;
+}
+
+video
+{
+	height: 100%;	
+	width: 100%;
+}
+
+div
+{
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+button
+{
+	position: absolute;
+	color: grey;
+	background: none;
+	right: 15px;
+	border: none;
+	font-size: 3em;
+	padding: 0;
+	margin: 0;
+
+}
+
+li a
+{
+	color: white;
+	text-decoration: none;
+
+}
+h1
+{
+	text-align: center;
+	font-size: 3em
+}
+p
+{
+	margin: 0;
+
+}
+
+footer
+{
+	padding: 4% 0% 4% 20%;
+	margin-top: 5%;
+	font-size: 15px;
+}
+
+footer p
+{
+	padding: 0.5%;
+}
