@@ -13,8 +13,7 @@ position:absolute;
 background-color: grey;
 opacity: 0.6;
 right: 35%;
-left: 35%;
-bottom: 57%;
+top: 57%;
 padding: 1%;
 margin: 0 auto;
 font-size: 2em;
@@ -28,6 +27,7 @@ color: white;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+	position: sticky;
 }
 
 .nav-bar-horizontal li
@@ -110,6 +110,7 @@ float: left;
 .sub-container
 {
 display: inline-block;
+min-width: 300px;
 width: 30%;
 margin: 3%;
 }
