@@ -135,6 +135,14 @@ text-align: center;
 	height: 100%;
 }
 
+.personalise-text2
+{
+	width: 45%;
+	display: inline-block;
+	padding: 0;
+	height: 100%;
+	float: right;
+}
 .oil
 {
 	width:  45%;
@@ -146,7 +154,7 @@ text-align: center;
 
 .oil img
 {
-	object-fit: contain;
+	float: right;
 }
 
 .crouton
@@ -173,6 +181,7 @@ header
 {
 	padding-top: 3.5%;
 	color: white;
+	width: 100%;
 }
 
 .list li
@@ -241,6 +250,7 @@ footer
 	padding: 4% 0% 4% 20%;
 	margin-top: 5%;
 	font-size: 15px;
+	width: 100%;
 }
 
 footer p
