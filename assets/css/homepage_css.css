@@ -3,21 +3,22 @@
 	padding: 0;
 	margin: 0;
 	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .tagline
 {
-position:absolute;
+position: absolute;
 background-color: grey;
 opacity: 0.6;
-right: 35%;
-top: 57%;
-padding: 1%;
+right: 29vw;
+top: 68vh;
 margin: 0 auto;
-font-size: 2em;
+font-size: 5em;
 color: white;
+padding: 2%;
 
 }
 
@@ -42,6 +43,11 @@ color: white;
 #special
 {
 	padding: 1% 0%;
+}
+
+#special2
+{
+	margin-left: 12%;
 }
 
 .logo img
@@ -112,28 +118,47 @@ float: left;
 display: inline-block;
 min-width: 300px;
 width: 30%;
-margin: 3%;
+margin: 1.5%;
+padding: 0;
+text-align: center;
+}
+
+.personalise
+{
+	display: block;
+}
+.personalise-text
+{
+	width: 45%;
+	display: inline-block;
+	padding: 0;
+	height: 100%;
+}
+
+.oil
+{
+	width:  45%;
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
 }
 
 .oil img
 {
-	float:right;
-	width: 30%;
 	object-fit: contain;
-	display: inline-block;
 }
 
 .crouton
 {
-	padding: 0 7% 7% 7%;
-}
-.crouton img
-{
-	float: left;
-	object-fit: contain;
+	width:  45%;
 	display: inline-block;
-	width: 55%;
+	padding: 0;
+	margin: 0;
+	object-fit: contain;
+	background-size: contain;
 }
+
 .black
 {
 	background-color: #231f20;
@@ -167,23 +192,25 @@ body
 
 video
 {
-	height: 100%;	
-	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
 }
 
 div
 {
 	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 button
 {
-	position: absolute;
+	position: fixed;
 	color: grey;
 	background: none;
-	right: 15px;
+	right: 0.5vw;
+	bottom: 1vh;
 	border: none;
 	font-size: 3em;
 	padding: 0;
