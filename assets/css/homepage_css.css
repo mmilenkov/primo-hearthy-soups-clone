@@ -2,23 +2,23 @@
 {
 	padding: 0;
 	margin: 0;
-	height: 100%;
-	width: 100%;
+	height: 100vh;
+	width: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .tagline
 {
-position: absolute;
-background-color: grey;
-opacity: 0.6;
-right: 29vw;
-top: 68vh;
-margin: 0 auto;
-font-size: 5em;
-color: white;
-padding: 2%;
+	position: absolute;
+	background-color: grey;
+	opacity: 0.6;
+	right: 29vw;
+	top: 68vh;
+	margin: 0 auto;
+	font-size: 5em;
+	color: white;
+	padding: 2%;
 
 }
 
@@ -171,6 +171,7 @@ footer
 
 header
 {
+	padding-top: 3.5%;
 	color: white;
 }
 
@@ -192,7 +193,7 @@ body
 
 video
 {
-	height: 100vh;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 }
