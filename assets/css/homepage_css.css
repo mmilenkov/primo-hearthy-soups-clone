@@ -45,8 +45,17 @@
 
     #full-size-image
     {
+    	padding: 0 !important;
     	height: 100vh;
     	background-size: cover;
+    	position: relative;
+    	object-fit: contain;
+    	width: 100%;
+    }
+
+    #full-size-image img
+    {
+    	width: 100% !important;
     }
 
     .sub-container
@@ -71,6 +80,7 @@
 		width: 100% !important;
 		font-size:1.8em !important;
 		line-height: 2.5vh;
+		padding: 0 !important;
 	}
 
 	.personalise-text2
@@ -78,11 +88,18 @@
 		width: 100% !important;
 		font-size:1.8em !important;
 		line-height: 2.5vh;
+		padding: 0 !important;
+	}
+
+	.pesonalise-container
+	{
+		padding: 0 !important;
 	}
 
 	.oil
 	{
 		width:  100% !important;
+		padding: 0 !important;
 	}
 
 	div
@@ -93,7 +110,14 @@
 	.crouton
 	{
 		width:  100% !important;
+		padding: 0 !important;
 		
+	}
+
+	.sub-container
+	{
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 }
 
@@ -105,6 +129,7 @@
 	margin: 0;
 	padding: 0;
 	position: sticky;
+	width: 100%;
 }
 
 .nav-bar-horizontal li
@@ -284,7 +309,7 @@ width: 75%;
 
 header
 {
-	padding-top: 4.8%;
+	padding-top: 5%;
 	color: white;
 	width: 100%;
 }
@@ -308,6 +333,7 @@ body
 video
 {
 	height: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 }
@@ -352,18 +378,16 @@ p
 footer
 {
 	display: block;
-	padding-left: 25%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	margin-top: 5%;
+	padding: 2.5%;
 	font-size: 15px;
 	color: grey;
+	width: 100%;
 
 }
 
 .footer
 {
-	padding: 0;
+	padding: 0 !important;
 	width: 100%;
 	display: block;
 }
