@@ -3,8 +3,7 @@
 	padding: 0;
 	margin: 0;
 	height: 100vh;
-	width: 99.55vw;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -21,6 +20,83 @@
 	padding: 2%;
 
 }
+
+@media only screen and (max-width: 1900px) {
+    .tagline
+    {
+    	display: none;
+    }
+
+    #full-size-image
+    {
+    	height: 100vh;
+    	position: relative;
+    	display:block;
+
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .tagline
+    {
+    	display: none;
+    }
+
+    #full-size-image
+    {
+    	height: 100vh;
+    	background-size: cover;
+    }
+
+    .sub-container
+	{
+	width: 100% !important;
+	font-size:2em !important;
+		line-height: 2.5vh;
+	}
+
+	body
+	{
+		font-size:1vh !important;
+		line-height: 2.5vh;
+	}
+
+	h1
+	{
+		line-height: 3.5vh;
+	}
+	.personalise-text
+	{
+		width: 100% !important;
+		font-size:1.8em !important;
+		line-height: 2.5vh;
+	}
+
+	.personalise-text2
+	{
+		width: 100% !important;
+		font-size:1.8em !important;
+		line-height: 2.5vh;
+	}
+
+	.oil
+	{
+		width:  100% !important;
+	}
+
+	div
+	{
+		padding: 5% !important;
+	}
+
+	.crouton
+	{
+		width:  100% !important;
+		
+	}
+}
+
 
 .nav-bar-horizontal
 {
@@ -138,10 +214,19 @@ width: 75%;
 {
 	display: block;
 }
+
+.pesonalise-container
+{
+	padding: 0;
+	display: block;
+	width: 100%;
+}
+
+
 .personalise-text
 {
 	width: 50%;
-	display: inline-block;
+	display: block;
 	padding: 0;
 	height: 100%;
 	float: left;
@@ -149,10 +234,12 @@ width: 75%;
 
 .personalise-text2
 {
-	width: 50%;
-	display:inline-block;
+	width: 40%;
+	display: inline-block;
 	padding: 0;
-	height: 100%;	
+	height: 100%;
+	position: relative;
+	right: 1vw;	
 }
 
 .oil
@@ -169,21 +256,25 @@ width: 75%;
 	text-align: center;
 	width: 60%;
 	padding-left: 20%;
+	display: block;
 }
 
 .crouton
 {
-	width:  50%;
+	width:  51%;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
 	object-fit: contain;
 	background-size: contain;
+	position: relative;
+	left: 10px;
 }
 
 .crouton img
 {
 	width: 100%;
+	display:inline-block;
 }
 
 .black
@@ -216,16 +307,14 @@ body
 
 video
 {
-	width: 100%;
+	height: 100%;
 	padding: 0;
 	margin: 0;
 }
 
 div
 {
-	padding-top: 5%;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding:5% 20% 0% 20%;
 }
 
 button
@@ -270,6 +359,13 @@ footer
 	font-size: 15px;
 	color: grey;
 
+}
+
+.footer
+{
+	padding: 0;
+	width: 100%;
+	display: block;
 }
 
 footer p
