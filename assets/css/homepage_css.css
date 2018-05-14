@@ -7,6 +7,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #231f20;
 }
 
 video
@@ -23,7 +24,7 @@ video
 	position: absolute;
 	background-color: grey;
 	opacity: 0.6;
-	right: 30vw;
+	right: 34vw;
 	top: 69vh;
 	margin: 0 auto;
 	font-size: 5em;
@@ -85,7 +86,7 @@ video
 
 	body
 	{
-		font-size:1vh !important;
+		font-size:1.8em !important;
 		line-height: 2.5vh;
 	}
 
@@ -96,16 +97,14 @@ video
 	.personalise-text
 	{
 		width: 100% !important;
-		font-size:1.8em !important;
-		line-height: 2.5vh;
+		line-height: 3.5vh !important;
 		padding: 0 !important;
 	}
 
 	.personalise-text2
 	{
-		width: 100% !important;
-		font-size:1.8em !important;
-		line-height: 2.5vh;
+		width: 100% !important;		
+		line-height: 3.5vh !important;
 		padding: 0 !important;
 	}
 
