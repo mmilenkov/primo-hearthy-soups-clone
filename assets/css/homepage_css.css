@@ -73,7 +73,7 @@ video
     	background-size: cover;
     	position: relative;
     	object-fit: contain;
-    	width: 100%;
+    	width: auto;
     }
 
     #full-size-image img
@@ -111,6 +111,7 @@ video
 	.pesonalise-container
 	{
 		padding: 0 !important;
+		font-size: 130%;
 	}
 
 	.oil
