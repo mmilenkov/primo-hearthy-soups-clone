@@ -2,7 +2,7 @@
 {
 	padding: 0;
 	margin: 0;
-	height: 100vh;
+	height: auto;
 	width: 100vw;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -27,7 +27,6 @@ video
 	right: 34vw;
 	top: 69vh;
 	margin: 0 auto;
-	font-size: 5em;
 	color: white;
 	padding: 2%;
 
@@ -41,11 +40,21 @@ video
 
     #full-size-image
     {
-    	height: 100vh;
+    	height: auto;
     	width: 100vw;
     	position: relative;
     	display:block;
 
+    }
+    .sub-container
+    {
+    	padding: 1% !important;
+    	font-size: 87% !important;
+    }
+
+    .container2
+    {
+    	padding: 0 !important;
     }
 }
 
@@ -80,31 +89,22 @@ video
     .sub-container
 	{
 	width: 100% !important;
-	font-size:2em !important;
-		line-height: 2.5vh;
-	}
-
-	body
-	{
-		font-size:1.8em !important;
-		line-height: 2.5vh;
 	}
 
 	h1
 	{
-		line-height: 3.5vh;
+	font-size: 240% !important;
 	}
+
 	.personalise-text
 	{
 		width: 100% !important;
-		line-height: 3.5vh !important;
 		padding: 0 !important;
 	}
 
 	.personalise-text2
 	{
 		width: 100% !important;		
-		line-height: 3.5vh !important;
 		padding: 0 !important;
 	}
 
@@ -117,6 +117,7 @@ video
 	{
 		width:  100% !important;
 		padding: 0 !important;
+		margin: auto;
 	}
 
 	div
@@ -128,13 +129,36 @@ video
 	{
 		width:  100% !important;
 		padding: 0 !important;
+		margin: auto !important;
+		object-position: center;
 		
+	}
+
+	.crouton img
+	{
+		margin: auto !important;
+		display: block !important;
+	}
+
+	.container3
+	{
+		height: auto;
 	}
 
 	.sub-container
 	{
+		display: block !important;
 		padding: 0 !important;
-		margin: 0 !important;
+		margin: auto !important;
+		width: 100% !important;
+		height: auto;
+		max-width: 500px !important;
+		font-size: 150% !important;
+	}
+
+	footer
+	{
+		font-size: 90% !important;
 	}
 }
 
@@ -199,13 +223,13 @@ video
 
 hr
 {
-		height: 1px;
-		border: 0;
-		color: grey;
-		background-color: grey;
-		width: 100%;
-		margin-bottom: 5%;
-		opacity: 0.2;
+	height: 1px;
+	border: 0;
+	color: grey;
+	background-color: grey;
+	width: 100%;
+	margin-bottom: 5%;
+	opacity: 0.2;
 	
 }
 
@@ -227,29 +251,29 @@ background-repeat: no-repeat;
 object-fit: contain;
 }
 
-.spoon img
+#soup-container
 {
-float: left;
+	padding: 5% 0 5% 0;
 }
-
 .container2
 {
+	width: 100%;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 .sub-container
 {
+font-size: 90%;
 display: inline-block;
-min-width: 200px;
-width: 25%;
-padding: 0;
-margin: 3%;
+max-width: 300px;
+width: 30%;
+padding: 3%;
 text-align: center;
 }
 
 .sub-container img
 {
-width: 75%;
+width: 100%;
 }
 
 .personalise
@@ -260,7 +284,7 @@ width: 75%;
 .pesonalise-container
 {
 	padding: 0;
-	display: block;
+	display: inline-block;
 	width: 100%;
 }
 
@@ -281,7 +305,6 @@ width: 75%;
 	padding: 0;
 	height: 100%;
 	position: relative;
-	right: 1vw;	
 }
 
 .oil
@@ -290,15 +313,14 @@ width: 75%;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-
 }
 
 .oil img
 {
-	text-align: center;
-	width: 60%;
-	padding-left: 20%;
+	margin: auto;
+	width: 100%;
 	display: block;
+	max-width: 350px;
 }
 
 .crouton
@@ -310,13 +332,14 @@ width: 75%;
 	object-fit: contain;
 	background-size: contain;
 	position: relative;
-	left: 10px;
 }
 
 .crouton img
 {
 	width: 100%;
 	display:inline-block;
+	max-width: 450px;
+	margin: auto;
 }
 
 .black
@@ -328,6 +351,7 @@ header
 {
 	color: white;
 	width: 100%;
+	position: sticky;
 }
 
 .list li
@@ -343,14 +367,8 @@ body
 	font-family: 'Delius', cursive;
 	background-color: white;
 	display: block;
-	line-height: 25px;
 }
 
-
-div
-{
-	padding:5% 20% 0% 20%;
-}
 
 button
 {
@@ -375,7 +393,6 @@ li a
 h1
 {
 	text-align: center;
-	font-size: 3em;
 	font-weight: normal;
 }
 p
@@ -384,14 +401,18 @@ p
 
 }
 
+.content
+{
+	padding: 5% 20% 0% 20%;
+}
 footer
 {
 	margin-top: 5%;
 	display: block;
-	font-size: 15px;
 	color: grey;
 	width: 100%;
 	text-align: center;
+	font-size: 70%;
 
 }
 
@@ -422,4 +443,9 @@ footer p
 ::-webkit-scrollbar-thumb {
     background: #231f20; 
     border-radius: 5px;
+}
+
+html
+{
+	font-size:100%;
 }
